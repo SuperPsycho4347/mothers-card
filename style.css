@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    background-color: #dd92d8;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    background-color: #dd92d8;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .collage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.collage .card {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+img {
+    width: 250px;
+    height: 280px;
+    border-radius: 10px;
+}
